@@ -1,0 +1,392 @@
+.logoIcon {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.companyNameSpan {
+  font-size: 32px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.signatureDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.currentRoomSpan,
+.logoutDiv {
+  position: relative;
+  font-family: var(--font-quicksand);
+  display: inline-block;
+}
+.currentRoomSpan {
+  font-size: 20px;
+}
+.logoutDiv {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: center;
+}
+.onlineUsersButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-md);
+  background-color: var(--color-gray-100);
+  border-radius: var(--br-md);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.menuIcon {
+  position: relative;
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.menuButton,
+.navbarButtonsDiv,
+.navbarDiv {
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+}
+.menuButton {
+  cursor: pointer;
+  border: 3px solid var(--color-white);
+  padding: 1px var(--padding-sm);
+  background-color: transparent;
+  display: none;
+  justify-content: center;
+}
+.navbarButtonsDiv,
+.navbarDiv {
+  display: flex;
+}
+.navbarButtonsDiv {
+  padding: 0 5px;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.navbarDiv {
+  align-self: stretch;
+  background-color: #334756;
+  /* height: 104px; */
+  height: 60px;
+  flex-shrink: 0;
+  padding: 0 var(--padding-md);
+  justify-content: space-between;
+}
+.unreadSolutions0,
+.userNameDiv {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.userNameDiv {
+  font-weight: 600;
+}
+.unreadSolutions0 {
+  font-size: var(--font-size-xs);
+  text-align: center;
+}
+.profileButton,
+.profileDiv {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.profileButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-md);
+  background: linear-gradient(90deg, #13eb5c, #5ba8ee);
+  width: 121px;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.profileDiv {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-300);
+  flex-direction: column;
+  padding: 10px 10px;
+  align-items: center;
+  gap: 25px;
+}
+.roomsDiv {
+  text-align: center;
+  font-weight: 600;
+  display: block;
+}
+.roomsListDiv {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-lg);
+  background-color: var(--color-gray-300);
+  overflow: hidden;
+  color: var(--color-gray-200);
+  padding: 10px;
+}
+.leftSideBarDiv {
+  align-self: stretch;
+  width: 200px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.senderNameSpan,
+.titleB {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.senderNameSpan {
+  font-size : var(--font-size-xs);
+  line-height: 10px;
+  font-weight: 600;
+}
+.mainDoubtTitleB {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm) /*26px*/;
+  line-height: 35px;
+  display: inline-block;
+}
+.mainDoubtBodyText {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.bodySpan {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 20px /*35px*/;
+  display: inline-block;
+}
+.mainDoubtDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+
+  border-radius: var(--br-lg);
+  background-color: #474e68;
+  padding: var(--padding-md);
+  
+  gap: 10px/*var(--gap-sm)*/;
+}
+.senderNameB {
+  font-size : var(--font-size-xs);
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+}
+.bestSolutionDiv,
+.bodyDiv {
+  line-height: 20px;
+  display: inline-block;
+}
+.bodyDiv {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xs);
+  font-family: var(--font-mukta-malar);
+}
+.bestSolutionDiv {
+  font-size: var(--font-size-2xs);
+  font-weight: 600;
+  font-family: var(--font-quicksand);
+  color: var(--color-white);
+  text-align: left;
+}
+.bestSolutionButton {
+  cursor: pointer;
+  border: 0;
+  padding: 2px 15px;
+  background-color: var(--color-black);
+  position: relative;
+  border-radius: var(--br-sm);
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.solutionDiv {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  color: var(--color-black);
+  font-family: var(--font-quicksand);
+}
+.bubblesDiv,
+.solutionBarInput {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.bubblesDiv {
+  align-self: stretch;
+  height: 534.53px;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+.solutionBarInput {
+  border: 0;
+  background-color: #e5e5e5;
+  flex: 1;
+  border-radius: var(--br-md);
+  height: 35px;
+  flex-direction: row;
+  padding: 0 var(--padding-lg);
+  box-sizing: border-box;
+}
+.attach2Icon {
+  position: absolute;
+  height: 74.47%;
+  width: 69.49%;
+  top: 12.77%;
+  right: 15.25%;
+  bottom: 12.77%;
+  left: 15.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.attachButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-white);
+  position: relative;
+  width: 59px;
+  height: 47px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.logoutButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-sm);
+  background: linear-gradient(90deg, #13eb5c, #5ba8ee);
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.solutionButtonBarDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-md);
+}
+.rightSidebarDiv,
+.solutionBoxDiv {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.solutionBoxDiv {
+  border-radius: var(--br-sm);
+  background-color: var(--color-black);
+  flex-direction: row;
+  padding: 28px 43px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 44px;
+}
+.rightSidebarDiv {
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+  font-family: var(--font-mukta-malar);
+  padding: 5px;
+}
+.solutionPageBodyDiv,
+.solutionPageDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.solutionPageBodyDiv {
+  max-height: 100%; /**/
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-md);
+  box-sizing: border-box;
+  gap: var(--gap-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-quicksand);
+}
+.solutionPageDiv {
+  position: relative;
+  background: linear-gradient(
+    113.82deg,
+    #ddf9e1,
+    #ddf9e1 0.01%,
+    rgba(110, 190, 201, 0.36) 51.87%,
+    rgba(161, 180, 249, 0.89)
+  );
+  width: 100%;
+  /* height: 1024px; */
+  height: 100vh;
+  flex-direction: column;
+  gap: var(--gap-0);
+  text-align: center;
+  font-size: var(--font-size-4xl);
+  color: var(--color-white);
+  font-family: var(--font-lato);
+}
+@media screen and (max-width: 768px) {
+  .logoIcon {
+    width: 57px;
+    height: 57px;
+  }
+  .companyNameSpan {
+    display: none;
+  }
+  .currentRoomSpan {
+    font-size: var(--font-size-xl);
+  }
+  .onlineUsersButton {
+    display: none;
+  }
+  .menuButton {
+    display: flex;
+  }
+}
+@media screen and (max-width: 428px) {
+  .currentRoomSpan {
+    font-size: var(--font-size-4xs);
+  }
+}
